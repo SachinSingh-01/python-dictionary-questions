@@ -1,0 +1,22 @@
+# Create three dictionaries separately and combine them inside one big dictionary.
+dict1={
+    "name":"Sachin",
+    "class":"XII",
+    "year":2023
+}
+dict2={
+    "name":"Krishna",
+    "class":"XI",
+    "year":2026
+}
+dict3={
+    "name":"Moni",
+    "class":"X",
+    "year":2025
+}
+all_dict={
+    "dict1":dict1,
+    "dict2":dict2,
+    "dict3":dict3,
+}
+print(all_dict)
