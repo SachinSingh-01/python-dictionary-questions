@@ -1,0 +1,19 @@
+# Write a program to merge two dictionaries into one.
+dic1={
+    "mobile":14999,
+    "bicycle":4999,
+    "pc":55000,
+    "helmet":1880
+}
+dict2={
+    "name":"Sachin",
+    "class":"XII",
+    "year":2023,
+    "language":"python",
+    "topic":"dictionary",
+    "price":34342
+}
+mydict={
+    "dic1":dict2
+}
+print(mydict)
